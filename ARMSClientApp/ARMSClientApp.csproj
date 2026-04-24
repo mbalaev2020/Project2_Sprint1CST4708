@@ -1,0 +1,69 @@
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3103D505-E17E-4293-9402-BE5E4E0209F1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ARMSClientApp</RootNamespace>
+    <AssemblyName>ARMSClientApp</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="frmCreditCardMSForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+      <Compile Include="frmMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+      <Compile Include="frmCustomerMSForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+      <Compile Include="frmVehicleMSForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+      <Compile Include="frmRentalMSForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+      <Compile Include="frmEzRentalPOSSystem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+      <Compile Include="frmERPSystemPortal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+      <Compile Include="frmCreditCardManagementSystemPortal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ARMSBOLayer\ARMSBOLayer.csproj">
+      <Project>{4412D25B-883B-4EAA-A265-D39C5EDB5992}</Project>
+      <Name>ARMSBOLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

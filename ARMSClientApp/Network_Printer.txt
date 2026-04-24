@@ -1,0 +1,18 @@
+Credit Card Record
+------------------
+Credit Card Number: 1212121212121212
+Owner Name: Jessica Lee
+Processing Merchant Service Company: Stripe
+Network Company: Visa
+Issuing Bank: Wells Fargo
+Corporate Merchant Bank: BofA Merchant Services
+Expiration Date: 3/3/2030
+Address Line 1: 12 Wall Street
+Address Line 2: Floor 8
+City: New York
+State: NY
+Zip Code: 10005
+Country: USA
+Credit Card Limit: 20000.00
+Available Credit: 16000.00
+Activation Status: Active

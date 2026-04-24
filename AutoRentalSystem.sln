@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARMSClientApp", "ARMSClientApp\ARMSClientApp.csproj", "{3103D505-E17E-4293-9402-BE5E4E0209F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARMSBOLayer", "ARMSBOLayer\ARMSBOLayer.csproj", "{4412D25B-883B-4EAA-A265-D39C5EDB5992}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARMSDALayer", "ARMSDALayer\ARMSDALayer.csproj", "{699A480B-84AF-48BB-BBF3-B439AF2CC6B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3103D505-E17E-4293-9402-BE5E4E0209F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3103D505-E17E-4293-9402-BE5E4E0209F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3103D505-E17E-4293-9402-BE5E4E0209F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3103D505-E17E-4293-9402-BE5E4E0209F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4412D25B-883B-4EAA-A265-D39C5EDB5992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4412D25B-883B-4EAA-A265-D39C5EDB5992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4412D25B-883B-4EAA-A265-D39C5EDB5992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4412D25B-883B-4EAA-A265-D39C5EDB5992}.Release|Any CPU.Build.0 = Release|Any CPU
+		{699A480B-84AF-48BB-BBF3-B439AF2CC6B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{699A480B-84AF-48BB-BBF3-B439AF2CC6B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{699A480B-84AF-48BB-BBF3-B439AF2CC6B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{699A480B-84AF-48BB-BBF3-B439AF2CC6B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
